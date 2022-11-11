@@ -1,0 +1,11 @@
+#Whether you are invisible for mobs when wearing the cloak of invisibility.
+visible_for_mobs = true
+#Whether the flame animation is hidden when wearing the cloak.
+hide_flame_animation = true
+#Whether your hitbox is hidden when wearing the cloak.
+hide_hitbox = true
+#Whether your shadow is hidden when wearing the cloak.
+hide_shadow = true
+#Whether to show a tooltip on the cloak.
+show_tooltip = true
+
