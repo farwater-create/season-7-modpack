@@ -122,20 +122,20 @@
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true,
-			"cachingFastEntryRendering": false
+			"cachingFastEntryRendering": true
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "UNSET",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
-		"theme": "LIGHT",
+		"theme": "DARK",
 		"layout": {
 			// Declares the position of the search field.
 			"searchFieldLocation": "CENTER",
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"showCraftableOnlyButton": true
+			"showCraftableOnlyButton": false
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",

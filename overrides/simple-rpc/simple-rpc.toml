@@ -1,6 +1,6 @@
 [general]
 	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
-	applicationID = 1019421717552181289
+	applicationID = 1040940872570769439
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -8,7 +8,7 @@
 	#Enable/Disable the in game config screen
 	configScreen = false
 	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
-	launcherIntegration = false
+	launcherIntegration = true
 	#Internal Version Number. NO TOUCHY!
 	version = 16
 
@@ -227,5 +227,3 @@
 		smallImageKey = "mclogo"
 		smallImageText = "%mods% mods installed"
 		buttons = []
-
-
