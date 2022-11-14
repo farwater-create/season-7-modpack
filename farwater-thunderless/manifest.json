@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "FARWATER THUNDERLESS ",
-  "version": "2.0",
-  "author": "wilechaote",
+  "name": "Farwater Season 7",
+  "version": "1.0",
+  "author": "Farwater",
   "files": [
     {
       "projectID": 240630,
@@ -67,11 +67,6 @@
     {
       "projectID": 618298,
       "fileID": 4048380,
-      "required": true
-    },
-    {
-      "projectID": 537533,
-      "fileID": 3502166,
       "required": true
     },
     {
