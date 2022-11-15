@@ -32,6 +32,7 @@ const recipeBlackList = [
   "create:empty_tconstruct_molten_diamond_bucket_of_tconstruct_molten_diamond",
   "create:fill_minecraft_bucket_with_tconstruct_molten_diamond",
   "tconstruct:molten_diamond_bucket",
+  "minecraft:ender_eye"
 ];
 
 const fluidBlackList = [
