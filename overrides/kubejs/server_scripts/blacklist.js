@@ -20,6 +20,7 @@ const outputBlacklist = [
   "invisibilitycloak:cloak_of_invisibility",
   "advancedperipherals:chunk_controller",
   "advancedperipherals:ar_goggles",
+  "create_things_and_misc:porridge"
 ];
 
 const recipeBlackList = [

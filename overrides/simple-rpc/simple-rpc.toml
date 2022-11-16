@@ -180,7 +180,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = "farwater"
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Its Farwater Create Season 6 come and join!"
+	largeImageText = "Its Farwater Create Season 7 come and join!"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = "mclogo"
 	#The text that gets displayed when the small image is hovered
