@@ -28,6 +28,7 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/axes",
   "tconstruct:smeltery/melting/diamond/boots",
   "tconstruct:smeltery/melting/diamond/chestplate",
+  "tconstruct:smeltery/melting/diamond/helmet",
   "tconstruct:smeltery/melting/diamond/leggings",
   "tconstruct:smeltery/melting/diamond/enchanting_table",
   "tconstruct:smeltery/melting/diamond/weapon",
