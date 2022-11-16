@@ -1,5 +1,4 @@
-
-// priority: 2
+// priority: 1
 
 const outputBlacklist = [
   // AE2
@@ -24,15 +23,16 @@ const outputBlacklist = [
 ];
 
 const recipeBlackList = [
-  "tconstruct:smeltery/casting/diamond/block",
-  "tconstruct:smeltery/casting/diamond/block",
-  "tconstruct:smeltery/casting/diamond/gem_gold_cast",
-  "tconstruct:smeltery/casting/diamond/gem_sand_cast",
-  "tconstruct:smeltery/casting/diamond/gem_red_sand_cast",
-  "create:empty_tconstruct_molten_diamond_bucket_of_tconstruct_molten_diamond",
-  "create:fill_minecraft_bucket_with_tconstruct_molten_diamond",
-  "tconstruct:molten_diamond_bucket",
-  "minecraft:ender_eye"
+  "minecraft:ender_eye",
+  "tconstruct:smeltery/melting/diamond/axes",
+  "tconstruct:smeltery/melting/diamond/boots",
+  "tconstruct:smeltery/melting/diamond/chestplate",
+  "tconstruct:smeltery/melting/diamond/leggings",
+  "tconstruct:smeltery/melting/diamond/enchanting_table",
+  "tconstruct:smeltery/melting/diamond/weapon",
+  "tconstruct:smeltery/melting/diamond/shovel",
+  "tconstruct:smeltery/melting/diamond/horse_armor",
+  "tconstruct:smeltery/melting/diamond/juke_box",
 ];
 
 const fluidBlackList = [
