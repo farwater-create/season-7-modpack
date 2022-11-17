@@ -1,5 +1,4 @@
 // priority: 1
-
 const outputBlacklist = [
   // AE2
   "advancedperipherals:chunk_controller",

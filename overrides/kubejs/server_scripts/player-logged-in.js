@@ -9,6 +9,6 @@ onEvent('player.logged_in', event => {
         event.player.give('1x minecraft:stone_axe');
         event.player.give('create:goggles');
         event.player.give('1x farmersrespite:coffee');
-        e.player.tell("Welcome to Farwater Create, it's time to get busy!");
+        event.player.tell("Welcome to Farwater Create, it's time to get busy!");
     }
 })
