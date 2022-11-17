@@ -36,10 +36,6 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/juke_box",
 ];
 
-const fluidBlackList = [
-  'tconstruct:molten_diamond'
-];
-
 const modBlackList = [
   "waystones"
 ];
@@ -48,8 +44,4 @@ onEvent("recipes", event => {
   outputBlacklist.forEach(item => event.remove({ output: item }));
   recipeBlackList.forEach(recipe => event.remove({ id: recipe }));
   modBlackList.forEach(mod => event.remove({ mod: mod }));
-});
-
-onEvent('fluid.registry', event => {
-  recipeBlackList.forEach(fluid => event.remove(fluid))
 });
