@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Black Icons","Classic Icons","White Icons","create:legacy_copper","file/Better-Leaves-7.0-1.13+.zip","file/ComputerCreate-0.1.zip","file/Copper Legacy Pack.zip","file/Default-Dark-Mode-1.18-v1.3.4.zip","file/Ore Variants v2.4.zip","file/Thermal_Create_1.18.zip","file/Tool Belt Retextured 1.18.x.zip"]
+resourcePacks:["vanilla","mod_resources","Black Icons","White Icons","file/ComputerCreate-0.1.zip","file/Default-Dark-Mode-1.18-v1.3.4.zip","file/Ore Variants v2.4.zip","file/Tool Belt Retextured 1.18.x.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
