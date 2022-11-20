@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Farwater",
-  "version": "Season 7 v1.0",
+  "version": "Season 7 v1.0.2",
   "author": "Farwater",
   "files": [
     {
@@ -227,11 +227,6 @@
     {
       "projectID": 282001,
       "fileID": 4061947,
-      "required": true
-    },
-    {
-      "projectID": 583345,
-      "fileID": 3886082,
       "required": true
     },
     {
@@ -800,11 +795,6 @@
       "required": true
     },
     {
-      "projectID": 324717,
-      "fileID": 4035581,
-      "required": true
-    },
-    {
       "projectID": 581495,
       "fileID": 3929520,
       "required": true
@@ -848,6 +838,14 @@
     {
       "projectID": 597298,
       "fileID": 3860071
+    },
+    {
+      "projectID": 358191,
+      "fileID": 4050356
+    },
+    {
+     "projectID": 422301,
+     "fileID": 4006088
     }
   ],
   "overrides": "overrides"

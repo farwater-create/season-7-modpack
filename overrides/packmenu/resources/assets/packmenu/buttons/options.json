@@ -1,9 +1,9 @@
 {
-	"x": -100,
-	"y": 84,
-	"width": 98,
-	"height": 20,
-	"langKey": "menu.options",
-	"action": "OPEN_GUI",
-	"data": "OPTIONS"
+  "x": -100,
+  "y": 84,
+  "width": 98,
+  "height": 20,
+  "langKey": "menu.options",
+  "action": "OPEN_GUI",
+  "data": "OPTIONS"
 }

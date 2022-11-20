@@ -19,7 +19,8 @@ const outputBlacklist = [
   "invisibilitycloak:cloak_of_invisibility",
   "advancedperipherals:chunk_controller",
   "advancedperipherals:ar_goggles",
-  "create_things_and_misc:porridge"
+  "create_things_and_misc:porridge",
+  // Backpacks
 ];
 
 const recipeBlackList = [
@@ -34,14 +35,18 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/shovel",
   "tconstruct:smeltery/melting/diamond/horse_armor",
   "tconstruct:smeltery/melting/diamond/juke_box",
+  "sophisticatedbackpacks:stack_upgrade_tier_1",
+  "sophisticatedbackpacks:stack_upgrade_tier_2",
+  "sophisticatedbackpacks:stack_upgrade_tier_3",
+  "sophisticatedbackpacks:stack_upgrade_tier_4",
+  "sophisticatedbackpacks:inception_upgrade",
+  "sophisticatedbackpacks:netherite_backpack"
 ];
 
-const modBlackList = [
-  "waystones"
-];
+const modBlackList = ["waystones"];
 
-onEvent("recipes", event => {
-  outputBlacklist.forEach(item => event.remove({ output: item }));
-  recipeBlackList.forEach(recipe => event.remove({ id: recipe }));
-  modBlackList.forEach(mod => event.remove({ mod: mod }));
+onEvent("recipes", (event) => {
+  outputBlacklist.forEach((item) => event.remove({ output: item }));
+  recipeBlackList.forEach((recipe) => event.remove({ id: recipe }));
+  modBlackList.forEach((mod) => event.remove({ mod: mod }));
 });

@@ -1,6 +1,7 @@
 // priority: 1
 
-onEvent("recipes", event => {
+onEvent("recipes", (event) => {
+  console.info("loading shapeless recipes");
   event.shapeless("architects_palette:charcoal_block", [
     "9x minecraft:charcoal",
   ]);
@@ -22,7 +23,7 @@ onEvent("recipes", event => {
   event.shapeless("create:copper_casing", [
     "#forge:stone",
     "#forge:plates/copper",
-  ])
+  ]);
 
   event.shapeless("create:refined_radiance_casing", [
     "#forge:glass/colorless",
