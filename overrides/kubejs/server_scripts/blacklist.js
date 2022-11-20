@@ -34,13 +34,7 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/weapon",
   "tconstruct:smeltery/melting/diamond/shovel",
   "tconstruct:smeltery/melting/diamond/horse_armor",
-  "tconstruct:smeltery/melting/diamond/juke_box",
-  "sophisticatedbackpacks:stack_upgrade_tier_1",
-  "sophisticatedbackpacks:stack_upgrade_tier_2",
-  "sophisticatedbackpacks:stack_upgrade_tier_3",
-  "sophisticatedbackpacks:stack_upgrade_tier_4",
-  "sophisticatedbackpacks:inception_upgrade",
-  "sophisticatedbackpacks:netherite_backpack"
+  "tconstruct:smeltery/melting/diamond/juke_box"
 ];
 
 const modBlackList = ["waystones"];
