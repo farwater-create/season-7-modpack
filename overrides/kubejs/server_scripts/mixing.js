@@ -40,7 +40,7 @@ onEvent("recipes", (event) => {
   event.recipes.createMixing(
     ["create:crimsite", Item.of("create:crimsite").withChance(0.5)],
     ["minecraft:blackstone", "create:crimsite"]
-  );
+  ).heated();
 
   event.recipes.createMixing("2x minecraft:coarse_dirt", [
     "minecraft:gravel",
@@ -65,7 +65,12 @@ onEvent("recipes", (event) => {
   event.recipes.createMixing(
     ["create:asurine", Item.of("create:asurine").withChance(0.5)],
     ["minecraft:cobbled_deepslate", "create:asurine"]
-  );
+  ).heated();
+
+  event.recipes.createMixing(
+    ["create:ochrum", Item.of("create:ochrum").withChance(0.5)],
+    ["#forge:sandstone", "create:ochrum"]
+  ).heated();
 
   event.recipes
     .createMixing(
@@ -119,5 +124,5 @@ onEvent("recipes", (event) => {
   event.recipes.createMixing(
     ["create:veridium", Item.of("create:veridium").withChance(0.5)],
     ["minecraft:mossy_cobblestone", "create:veridium"]
-  );
+  ).heated();
 });
