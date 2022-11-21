@@ -9,11 +9,6 @@ onEvent("recipes", (event) => {
     )
     .heated();
 
-  event.recipes.createCrushing(
-    ["2x croptopia:caramel"],
-    "create_confectionery:bar_of_caramel"
-  );
-
   event.recipes
     .createMixing(Fluid.of("tconstruct:molten_invar", 270), [
       Fluid.of("tconstruct:molten_iron", 180),
@@ -41,12 +36,7 @@ onEvent("recipes", (event) => {
       Fluid.of("tconstruct:molten_gold", 90),
     ])
     .heated();
-
-  event.recipes.createCompacting("minecraft:cobbled_deepslate", [
-    "9x minecraft:cobblestone",
-    Fluid.of("minecraft:lava", 100),
-  ]);
-
+    
   event.recipes.createMixing(
     ["create:crimsite", Item.of("create:crimsite").withChance(0.5)],
     ["minecraft:blackstone", "create:crimsite"]
