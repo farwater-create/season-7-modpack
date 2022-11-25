@@ -1,0 +1,3 @@
+To refresh this file, delete it and run /reload command again! Last updated: Nov 24, 2022, 4:43:41 PM
+
+#create_enchantment_industry:hyper_enchantable

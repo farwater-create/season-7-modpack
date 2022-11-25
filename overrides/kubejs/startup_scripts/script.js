@@ -1,8 +1,6 @@
 // priority: 0
 
-console.info(
-  "Started Farwater Create KubeJS"
-);
+console.info("Started Farwater Create KubeJS");
 
 onEvent("item.registry", (event) => {
   // Register new items here
