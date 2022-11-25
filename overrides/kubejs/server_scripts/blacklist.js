@@ -21,7 +21,6 @@ const outputBlacklist = [
   "advancedperipherals:chunk_controller",
   "advancedperipherals:ar_goggles",
   "create_things_and_misc:porridge",
-  // Backpacks
 ];
 
 const recipeBlackList = [
@@ -35,7 +34,7 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/weapon",
   "tconstruct:smeltery/melting/diamond/shovel",
   "tconstruct:smeltery/melting/diamond/horse_armor",
-  "tconstruct:smeltery/melting/diamond/juke_box"
+  "tconstruct:smeltery/melting/diamond/juke_box",
 ];
 
 const modBlackList = ["waystones"];

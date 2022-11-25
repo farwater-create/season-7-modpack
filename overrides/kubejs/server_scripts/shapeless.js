@@ -29,4 +29,6 @@ onEvent("recipes", (event) => {
     "#forge:glass/colorless",
     "create:refined_radiance",
   ]);
+
+  event.shapeless("kubejs:ash_block", ["9x #forge:ash"]);
 });
