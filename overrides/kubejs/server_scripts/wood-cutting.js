@@ -18,10 +18,6 @@ function addWoodCuttingRecipe(event, woodType) {
   );
   event.stonecutting(
     "minecraft:" + woodType + "_planks",
-    "minecraft:" + woodType + "_slab"
-  );
-  event.stonecutting(
-    "minecraft:" + woodType + "_planks",
     "minecraft:" + woodType + "_stairs"
   );
   event.stonecutting(
@@ -42,10 +38,6 @@ function addWoodCuttingRecipe(event, woodType) {
   );
   event.stonecutting(
     "minecraft:" + woodType + "_pressure_plate",
-    "minecraft:" + woodType + "_planks"
-  );
-  event.stonecutting(
-    "minecraft:" + woodType + "_slab",
     "minecraft:" + woodType + "_planks"
   );
   event.stonecutting(
