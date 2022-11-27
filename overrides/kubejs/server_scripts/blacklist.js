@@ -35,6 +35,7 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/shovel",
   "tconstruct:smeltery/melting/diamond/horse_armor",
   "tconstruct:smeltery/melting/diamond/juke_box",
+  "createbigcannons:melting/melt_steel_ingot"
 ];
 
 const modBlackList = ["waystones"];
