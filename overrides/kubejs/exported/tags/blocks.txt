@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Nov 24, 2022, 4:43:41 PM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 16, 2022, 12:05:51 AM
 
 #forge:cobblestone/mossy
 - minecraft:mossy_cobblestone
@@ -7776,6 +7776,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - buddycards:buddycard_booster_box_nether
 - buddycards:buddycard_booster_box_end
 - buddycards:buddycard_booster_box_mystery
+- eggcrate:eggcrate
 - undead_expansion:blight_o_lantern
 - farmersdelight:basket
 - farmersdelight:cutting_board

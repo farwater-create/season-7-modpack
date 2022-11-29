@@ -133,4 +133,11 @@ onEvent("recipes", (event) => {
       ["minecraft:mossy_cobblestone", "create:veridium"]
     )
     .heated();
+  
+    event.recipes
+    .createMixing(
+      "minecraft:moss_block",
+      Fluid.of("minecraft:water", 100),
+    );
+
 });
