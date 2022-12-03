@@ -16,10 +16,13 @@ const creepers = [
   "creeperoverhaul:snowy_creeper",
 ];
 
+const saplingChance = 0.2;
+const ashChance = 0.15;
+
 function applyTemperateSaplingsTable(table) {
   table.addPool((pool) => {
     pool.rolls = 1;
-    pool.randomChance(0.05);
+    pool.randomChance(saplingChance);
     pool.addItem("croptopia:fig_sapling", 4);
     pool.addItem("croptopia:date_sapling", 4);
     pool.addItem("croptopia:apple_sapling", 4);
@@ -42,7 +45,7 @@ function applyTemperateSaplingsTable(table) {
 function applyTropicalSaplingsTable(table) {
   table.addPool((pool) => {
     pool.rolls = 1;
-    pool.randomChance(0.05);
+    pool.randomChance(saplingChance);
     pool.addItem("croptopia:banana_sapling", 1);
     pool.addItem("croptopia:avocado_sapling", 1);
     pool.addItem("croptopia:mango_sapling", 2);
@@ -57,7 +60,7 @@ function applyTropicalSaplingsTable(table) {
 function applyDrySaplingsTable(table) {
   table.addPool((pool) => {
     pool.rolls = 1;
-    pool.randomChance(0.05);
+    pool.randomChance(saplingChance);
     pool.addItem("croptopia:dragonfruit_sapling");
   });
 }
@@ -65,7 +68,7 @@ function applyDrySaplingsTable(table) {
 function applyIslandSaplingsTable(table) {
   table.addPool((pool) => {
     pool.rolls = 1;
-    pool.randomChance(0.05);
+    pool.randomChance(saplingChance);
     pool.addItem("croptopia:coconut_sapling");
     pool.addItem("croptopia:nutmeg_sapling", 2);
   });
@@ -77,7 +80,7 @@ onEvent("entity.loot_tables", (event) => {
     event.modifyEntity(creeper, (table) => {
       table.addPool((pool) => {
         pool.rolls = 2;
-        pool.randomChance(0.15);
+        pool.randomChance(ashChance);
         pool.addItem("undead_expansion:ashes_of_creeper", 1);
       });
       switch (creeper) {
