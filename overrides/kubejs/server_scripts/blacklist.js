@@ -37,6 +37,8 @@ const recipeBlackList = [
   "tconstruct:smeltery/melting/diamond/juke_box",
   "createbigcannons:melting/melt_steel_ingot",
   "architects_palette:charcoal_block",
+  "ae2:network/parts/annihilation_plane_alt2",
+  "ae2:network/parts/annihilation_plane_alt",
 ];
 
 const modBlackList = ["waystones"];
