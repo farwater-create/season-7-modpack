@@ -12,4 +12,14 @@ onEvent("recipes", (event) => {
         I: "minecraft:iron_ingot",
         A: "ae2:annihilation_core"
     });
+    
+    event.shaped("3x kubejs:cheese_sword", [
+        ' C ',
+        ' C ',
+        ' S '
+    ],
+    {
+        C: "#forge:cheeses",
+        S: "#forge:rods"
+    });
 });
