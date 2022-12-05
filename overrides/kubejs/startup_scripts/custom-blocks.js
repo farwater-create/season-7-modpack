@@ -1,4 +1,4 @@
-// priority: 0
+// priority: 1
 
 onEvent("block.registry", (event) => {
   event

@@ -133,11 +133,24 @@ onEvent("recipes", (event) => {
       ["minecraft:mossy_cobblestone", "create:veridium"]
     )
     .heated();
+
+  event.recipes
+    .createMixing(
+      "lazierae2:fluix_steel_ingot",
+      ["lazierae2:carbonic_fluix_dust", Fluid.of("tconstruct:molten_iron", 144)]
+    )
+    .heated();
   
     event.recipes
     .createMixing(
       "minecraft:moss_block",
       Fluid.of("minecraft:water", 100),
+    );
+
+    event.recipes
+    createMixing(
+      Fluid.of("createbigcannons:molten_steel", 144),
+      "#forge:ingots/steel"
     );
 
 });
