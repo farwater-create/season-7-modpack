@@ -28,4 +28,10 @@ onEvent("recipes", (event) => {
     ["2x croptopia:caramel"],
     "create_confectionery:bar_of_caramel"
   );
+
+  event.recipes.createCrushing(
+    "#forge:ores/certus_quartz",
+    "1x ae2:certus_quartz_dust"
+  );
+
 });

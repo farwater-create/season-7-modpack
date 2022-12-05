@@ -23,25 +23,33 @@ const outputBlacklist = [
   "create_things_and_misc:porridge",
 ];
 
+const tinkersSmeltingBlacklist = (item) => {
+  return [
+    `tconstruct:smeltery/melting/${item}/axes`
+    `tconstruct:smeltery/melting/${item}/boots`
+    `tconstruct:smeltery/melting/${item}/chestplate`
+    `tconstruct:smeltery/melting/${item}/helmet`
+    `tconstruct:smeltery/melting/${item}/leggings`
+    `tconstruct:smeltery/melting/${item}/enchanting_table`
+    `tconstruct:smeltery/melting/${item}/weapon`
+    `tconstruct:smeltery/melting/${item}/shovel`,
+    `tconstruct:smeltery/melting/${item}/horse_armor`,
+    `tconstruct:smeltery/melting/${item}/juke_box`,
+  ]
+}
+
 const recipeBlackList = [
   "minecraft:ender_eye",
-  "tconstruct:smeltery/melting/diamond/axes",
-  "tconstruct:smeltery/melting/diamond/boots",
-  "tconstruct:smeltery/melting/diamond/chestplate",
-  "tconstruct:smeltery/melting/diamond/helmet",
-  "tconstruct:smeltery/melting/diamond/leggings",
-  "tconstruct:smeltery/melting/diamond/enchanting_table",
-  "tconstruct:smeltery/melting/diamond/weapon",
-  "tconstruct:smeltery/melting/diamond/shovel",
-  "tconstruct:smeltery/melting/diamond/horse_armor",
-  "tconstruct:smeltery/melting/diamond/juke_box",
   "createbigcannons:melting/melt_steel_ingot",
   "architects_palette:charcoal_block",
   "ae2:network/parts/annihilation_plane_alt2",
   "ae2:network/parts/annihilation_plane_alt",
+  ...tinkersSmeltingBlacklist("diamond"),
+  ...tinkersSmeltingBlacklist("netherrite")
 ];
 
 const modBlackList = ["waystones"];
+
 
 onEvent("recipes", (event) => {
   outputBlacklist.forEach((item) => event.remove({ output: item }));
