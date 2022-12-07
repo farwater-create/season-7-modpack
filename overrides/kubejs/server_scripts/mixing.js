@@ -148,7 +148,7 @@ onEvent("recipes", (event) => {
     );
 
     event.recipes
-    createMixing(
+    .createMixing(
       Fluid.of("createbigcannons:molten_steel", 144),
       "#forge:ingots/steel"
     );

@@ -25,13 +25,13 @@ const outputBlacklist = [
 
 const tinkersSmeltingBlacklist = (item) => {
   return [
-    `tconstruct:smeltery/melting/${item}/axes`
-    `tconstruct:smeltery/melting/${item}/boots`
-    `tconstruct:smeltery/melting/${item}/chestplate`
-    `tconstruct:smeltery/melting/${item}/helmet`
-    `tconstruct:smeltery/melting/${item}/leggings`
-    `tconstruct:smeltery/melting/${item}/enchanting_table`
-    `tconstruct:smeltery/melting/${item}/weapon`
+    `tconstruct:smeltery/melting/${item}/axes`,
+    `tconstruct:smeltery/melting/${item}/boots`,
+    `tconstruct:smeltery/melting/${item}/chestplate`,
+    `tconstruct:smeltery/melting/${item}/helmet`,
+    `tconstruct:smeltery/melting/${item}/leggings`,
+    `tconstruct:smeltery/melting/${item}/enchanting_table`,
+    `tconstruct:smeltery/melting/${item}/weapon`,
     `tconstruct:smeltery/melting/${item}/shovel`,
     `tconstruct:smeltery/melting/${item}/horse_armor`,
     `tconstruct:smeltery/melting/${item}/juke_box`,
@@ -44,9 +44,10 @@ const recipeBlackList = [
   "architects_palette:charcoal_block",
   "ae2:network/parts/annihilation_plane_alt2",
   "ae2:network/parts/annihilation_plane_alt",
-  ...tinkersSmeltingBlacklist("diamond"),
-  ...tinkersSmeltingBlacklist("netherrite")
-];
+].concat(
+  tinkersSmeltingBlacklist("diamond"),
+  tinkersSmeltingBlacklist("netherrite")
+)
 
 const modBlackList = ["waystones"];
 
