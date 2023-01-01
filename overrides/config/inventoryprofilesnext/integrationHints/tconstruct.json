@@ -1,0 +1,69 @@
+{
+    "slimeknights.tconstruct.tables.client.inventory.table.CraftingStationScreen": {
+        "playerSideOnly": true
+    },
+    "slimeknights.tconstruct.tables.client.inventory.table.TinkerStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 50
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 50
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 50
+            }
+        }
+    },
+    "slimeknights.tconstruct.tables.client.inventory.table.PartBuilderScreen": {
+        "playerSideOnly": true
+    },
+    "slimeknights.tconstruct.tables.client.inventory.TinkerStationScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 40,
+                "bottom": 2
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 40,
+                "bottom": 2
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 40,
+                "bottom": 2
+            }
+        }
+    },
+    "slimeknights.tconstruct.tables.client.inventory.PartBuilderScreen": {
+        "playerSideOnly": true
+    },
+    "slimeknights.tconstruct.tables.client.inventory.CraftingStationScreen": {
+        "buttonHints": {
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 50,
+                "bottom": -17
+            },
+            "PROFILE_SELECTOR": {
+                "hide": true
+            },
+            "MOVE_TO_CONTAINER": {
+                "bottom": -12
+            },
+            "SORT": {
+                "horizontalOffset": 12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 12
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 12
+            }
+        }
+    },
+    "slimeknights.tconstruct.tables.menu.CraftingStationContainerMenu": {
+        "playerSideOnly": true,
+        "force": true
+    }
+}
